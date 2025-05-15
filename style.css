@@ -1,0 +1,49 @@
+:root {
+    --titles: "Young Serif", serif;
+    --small-font: "Outfit", sans-serif;
+    --Stone100: hsl(30, 54%, 90%);
+    --Stone150: hsl(30, 18%, 87%);
+    --Stone600: hsl(30, 10%, 34%);
+    --Stone900: hsl(24, 5%, 18%);
+    --Brown800: hsl(14, 45%, 36%);
+    --Rose800: hsl(332, 51%, 32%);
+    --Rose50: hsl(330, 100%, 98%);
+}
+
+body {
+    background-color: var(--Stone100);
+    margin: 0;
+    font-family: var(--small-font);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    width: 90%;
+    max-width: 800px;
+    height: 90%;
+    background-color: white;
+    border-radius: 20px;
+    padding: 1rem;
+    box-sizing: border-box;
+    text-align: left;
+    overflow: hidden;
+}
+
+.Cover {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
