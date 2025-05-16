@@ -29,15 +29,17 @@ main {
 }
 
 article {
+    margin-top: 
     width: 90%;
     max-width: 800px;
-    height: 90%;
+    height: auto;
     background-color: white;
     border-radius: 20px;
     padding: 1rem;
     box-sizing: border-box;
     text-align: left;
     overflow: hidden;
+
 }
 
 .Cover {
